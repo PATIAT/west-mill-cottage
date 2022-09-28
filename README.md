@@ -1,108 +1,143 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h2 align="center"><img src="assets/readme-images/west_mill_cottage_logo.png"></h2  
 
-Welcome USER_NAME,
+# Website for: West Mill Cottage  
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Code Institute Milestone Project 1 – Static Front End Project  
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+*  West Mill Cottage is a blissfully tranquil riverside cottage set in rural countryside where England meets Scotland. The objective of the website is to appeal to prospective and returning tenants. The website is designed to be fully responsive so that the users experience is consistent across any device.   
 
-## Gitpod Reminders
+* This website has been developed for the Milestone Project 1 submission as part of the Diploma in Web Application Development course facilitated by Code Institute and City of Bristol College.  
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* This static front end website has been built using the different programming languages learned during the course, including HTML and CSS. The website has also utilised the Bootstrap framework technology.  
 
-`python3 -m http.server`
+## Live Project  
 
-A blue button should appear to click: _Make Public_,
+## GitHub Repository  
 
-Another blue button should appear to click: _Open Browser_.
+# Contents  
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- [User Experience](#user-experience)  
 
-A blue button should appear to click: _Make Public_,
+  * [User Stories](#user-stories)  
 
-Another blue button should appear to click: _Open Browser_.
+    + [Prospective tenants](#prospective-tenants)  
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    + [Returning tenants](#returning-tenants)  
 
-To log into the Heroku toolbelt CLI:
+    + [Business owners](#business-owners)  
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- [Design](#design)  
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  + [Colour scheme](#colour-scheme)  
 
-------
+  + [Typography](#typography)  
 
-## Release History
+  + [Imagery](#imagery)  
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  + [Icons](#icons)  
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- [Structure](#structure)  
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+  + [Information Architecture](#information-architecture)  
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  + [Navigation Bar](#navigation-bar)  
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  + [Back To Top Button](#back-to-top-button)  
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+  + [Buttons](#buttons)  
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  + [Page Heading & Sub Navigations](#page-heading-and-sub-navigations)  
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+  + [Footer](#footer)  
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+# User Experience  
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## User Stories  
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Prospective Tenants  
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+*The website users that fall into this category are considering visiting the area and are already looking for appropriate accommodation.*  
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* As a prospective tenant, I would like to have an overview of the holiday cottage to determine if it is suitable for my requirements.  
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+*  As a prospective tenant, I would like to know the details of the holiday cottage including its attributes such as; number of bedrooms, bathrooms etc...  
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* As a prospective tenant, I would like to know what activities and attractions are available in the local area.   
 
-------
+* As a prospective tenant, I would like to be able to contact the owners if I have any questions or special requests.  
 
-## FAQ about the uptime script
+### Returning Tenants  
 
-**Why have you added this script?**
+*The website users that fall into this category are people or families that have previously stayed and enjoyed the holiday cottage and are looking to return.*  
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* As a returning tenant, I would like to know if the holiday cottage has any new attributes, such as additional facilities etc...  
 
-**How will this affect me?**
+* As a returning tenant, I would like see genuine reviews from other people and families that have stayed at the holiday cottage.  
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* As a returning tenant, I would like to know if there are any upcoming events in the local area that I could attend on my visit.  
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+* As a returning tenant, I would like to be able to let the owners know I am returning tenant so I can receive potential discounted rates.  
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Business Owners  
 
-**So….?**
+*The business owners are the owners of the holiday cottage and of the website*  
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+* As the business owner, I would like my website to be user friendly across all devices and accessible to visually impaired users.  
 
-**Can I opt out?**
+* As the business owner, I would like the website to promote the quality of the cottage and the activities and attractions in the local area.  
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* As the business owner, I would like the website to emphasise the openness of us as owners and promote the asking of questions from users via the contact form and social media platforms.  
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Design  
 
-**Anything more?**
+### Colour Scheme  
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+#### Primary Colours
+<h2 align="center"><img src="assets/readme-images/primary_colours.png"></h2>  
 
----
+#### Secondary Colours
+<h2 align="center"><img src="assets/readme-images/secondary_colours.png"></h2>  
 
-Happy coding!
+ - A simple colour scheme has been used with three primary colours and three secondary colours. The colours are all relatively light with dark type being used in contrast to give a refined and clean appearance.  
+
+- This colour pallette has been chosen with the website imagery in mind. This is because the images are going to be what catch the user's attention.  
+
+- I used the [Material Design Colour Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0) to decide on colour choices.  
+
+### Typography  
+
+- Headings are in Aboreto and normal text is in Lato. Aboreto is a cursive font which is eyecathing and sophisticated which is in keeping with the style of the holiday cottage. Therefore cursive is the fallback font should Aboreto be unavailable. Lato is a clean and legible font which is commonly used for websites all over the world. Sans serif is the fallback font should Lato be unavailable.  
+
+### Imagery  
+
+- The images have been provided by the business owners and offer a genuine representation of the standard of the holiday cottage. The images are therefore a very important feature of the website as they must be of high quality to portray the holiday cottage in the same light.  
+
+- Each of the pages uses different image layouts, this is due to the focus and purpose of each page being different e.g., carousel on the home page to give a taste and more focused images on the property details page e.g., kitchen, bathroom etc.  
+
+- Most of the images are in landscape orientation and the use of the same aspect ratio for all images allows for a consistent user experience.  
+
+### Icons  
+
+- All icons were sourced from Font Awesome and have been used sparingly across each page to allow for a more focused approach to catch the users attention.  
+
+## Structure  
+
+### Website Architecture  
+
+- This website has a home page and a further 5 pages, namely;    Property Details, Location, Activities, About and Contact.  
+
+  - Home page – This is the landing page with a hero image and descriptions and navigation to the other pages.  
+
+  - Property details - This page provides information about each room of the house which contains images and text.  
+
+  - Location - This page provides information about where the holiday cottage is located, geographically and provides options on different modes of transport on how to get there.  
+
+  - Activities - This page provides details on what activities are available to participate in within the local area of the holiday cottage.  
+
+  - About - This page provides some brief and basic information from the owners of the holiday cottage to allow users to see the people behind the project.  
+
+  - Contact - This page provides a contact form to allow users to contact the owners with questions regarding their potential stay or to enquire about returning as a tenant.  
+
+  - Each page features a main ‘call to action’ which is achieved through a combination of images and buttons. The aim was to allow users to get to the information the page has to offer in as few steps as possible. 
+
+ 
