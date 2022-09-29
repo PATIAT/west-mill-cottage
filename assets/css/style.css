@@ -91,6 +91,33 @@ Header & Navigation Styles
     padding-top: 5px;
 }
 
+/* ========== 
+Section Styles 
+========== */
+
+.hero-bg-outer {
+    background-color: #ced7db;
+}
+
+@media screen and (max-width: 991px) {
+    .hero-bg-outer {
+        text-align: center;
+    }
+    .hero-bg-outer.btn.btn-1 {
+        align-items: center;
+    }
+}
+
+.hero-title {
+    font-family: 'Aboreto', cursive;
+    padding-top: 15px;
+}
+
+.hero-text {
+    font-family: 'Lato', sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
 
 
 
@@ -108,47 +135,20 @@ Header & Navigation Styles
 
 
 
+/* ========== 
+Button Styles 
+========== */
 
+.btn.btn-1 {
+    background-color: #9da6a9;
+    color: #212121;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.btn.btn-1:hover{
+    background-color: #ffecb3;
+    border: 1px solid #9da6a9;
+    color: #212121;
+}
 
 /* ========== 
 Footer Styles 
