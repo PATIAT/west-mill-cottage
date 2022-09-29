@@ -119,21 +119,21 @@ Section Styles
     font-weight: 500;
 }
 
+.section-plain {
+    background-color: #fff;
+}
 
+.section-colour {
+    background-color: #ced7db;
+}
 
+.inner-section-plain {
+    background-color: #ced7db;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.inner-section-colour {
+    background-color: #fff;
+}
 
 /* ========== 
 Button Styles 
