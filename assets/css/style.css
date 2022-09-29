@@ -1,0 +1,224 @@
+/* ========== 
+Google Fonts 
+========== */
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* ========== 
+General Styles 
+========== */
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #212121;
+    background-color: #9da6a9;
+}
+
+.home-title-1 {
+    font-family: 'Aboreto', cursive;
+    font-size: x-large;
+    padding-top: 10px;
+}
+
+.page-title {
+    font-family: 'Aboreto', cursive;
+    font-size: xx-large;
+    padding-top: 10px;
+}
+
+.page-title-text {
+    font-family: 'Lato', sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+/* ========== 
+Header & Navigation Styles 
+========== */
+
+.logo {
+    font-family: 'Aboreto', cursive;
+    font-size: x-large;
+    margin: 0;
+}
+
+.logo:hover {
+    color: #ffecb3;
+}
+
+.navbar {
+    background: url(../images/floral-background.png) no-repeat center;
+}
+
+.nav-link {
+    padding: 0.2rem 1rem;
+    margin: 0.3rem;
+    color: #212121;
+}
+
+@media screen and (max-width: 991px) {
+    .nav-link {
+        padding: 0.5rem;
+        margin: 0.5rem;
+        color: #212121;
+    }
+}
+
+.navbar-nav .nav-link.active {
+    color: #ffecb3;
+    border-bottom: #ffecb3 1px solid;
+}
+
+/* ===== Idea taken from Code Institute Project (Resume) ===== */
+.navbar .nav-link:hover {
+    color: #ffecb3;
+    border-bottom: #ffecb3 1px solid;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#back-to-top {
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== 
+Footer Styles 
+========== */
+
+footer {
+    background: url(../images/floral-background.png) no-repeat center;
+    color: #232323;
+    min-height: 125px;
+    margin: 0;
+}
+
+.footer-head {
+    font-weight: 500;
+}
+
+.footer-p {
+    font-size: smaller;
+    font-weight: 400;
+}
+
+.contacts p a {
+    color: #212121;
+    text-decoration: none;
+}
+
+/* ===== Idea taken from Code Institute Project (Resume) ===== */
+#footer-details {
+    padding: 20px 1px 20px 1px;
+}
+
+/* ===== Idea taken from Code Institute Project (Resume) ===== */
+.social-links li a i {
+    font-size: 32px;
+    text-align: center;
+    color: #212121;
+    margin: 0;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #ffecb3;
+}
+
+.contacts p a:hover {
+    color: #ffecb3;
+    border-bottom: #ffecb3 1px solid;
+    
+}
+
+footer hr {
+    margin: 0px;
+}
+
+.copyright {
+    padding-top: 16px;
+    padding-bottom: 28px;
+}
+
+@media screen and (max-width:575px) {
+    #footer-details {
+        text-align: center;
+    }   
+}
+
+@media screen and (min-width:576px) {
+    .social-links {
+        text-align: end;
+    }   
+}
