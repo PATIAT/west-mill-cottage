@@ -231,3 +231,16 @@ footer hr {
         text-align: end;
     }
 }
+
+/* ========== 
+Google Maps 
+========== */
+
+#g-map {
+    height: 100%;
+    width: 100%;
+}
+
+.map-section {
+    height: 400px;
+}
