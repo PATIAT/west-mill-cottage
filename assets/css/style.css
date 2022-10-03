@@ -149,6 +149,18 @@ Button Styles
     color: #212121;
 }
 
+.btn.btn-2 {
+    background-color: #212121;
+    border: 1px solid #ffecb3;
+    color: #ffecb3;
+}
+
+.btn.btn-2:hover {
+    background-color:#ced7db;
+    border: 1px solid #212121;
+    color: #212121;
+}
+
 .accordion-button {
     color: #212121;
     background-color: #ced7db;
@@ -250,6 +262,30 @@ Google Maps
 Activity Section Styling
 ========== */
 
+.activity-title {
+    font-family: "Aboreto", cursive;
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+}
+
 .activity-col {
     min-height: 400px;
+}
+
+.activity-text {
+    min-height: 75px;
+    padding-top: 12px;
+    font-style: italic;
+}
+
+@media screen and (max-width: 991px) {
+    .activity-text {
+        min-height: 135px;
+        font-style: italic;
+        vertical-align: middle;
+
+    }
+    
 }
