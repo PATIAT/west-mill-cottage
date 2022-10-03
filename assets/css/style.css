@@ -244,3 +244,12 @@ Google Maps
 .map-section {
     height: 400px;
 }
+
+
+/* ========== 
+Activity Section Styling
+========== */
+
+.activity-col {
+    min-height: 400px;
+}
