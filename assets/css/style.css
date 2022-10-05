@@ -33,6 +33,13 @@ body {
     padding-top: 10px;
 }
 
+.about-title-text {
+    font-family: "Lato", sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
 .accordian-title {
     font-family: 'Aboreto', cursive;
     font-size: large;
@@ -49,10 +56,6 @@ body {
     font-family: "Lato", sans-serif;
     font-size: medium;
     font-weight: 500;
-}
-
-.page-explainer {
-    height: 100px;
 }
 
 /* ========== 
@@ -217,6 +220,31 @@ Activity Section Styling
 }
 
 /* ========== 
+About Section Styling
+========== */
+
+.about-container {
+    padding: 20px;
+    margin: 0;
+}
+
+.about-container > img {
+    margin: 5px;
+}
+
+.about-heading {
+    font-family: 'Aboreto', cursive;
+    font-size: x-large;
+    padding-top: 15px;
+}
+
+@media screen and (min-width: 991px) {
+    .about-rule-break {
+        display: none;
+    }
+}
+
+/* ========== 
 Footer Styles 
 ========== */
 
@@ -300,5 +328,3 @@ Google Maps
 .map-section {
     height: 400px;
 }
-
-
