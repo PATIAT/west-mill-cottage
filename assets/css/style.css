@@ -39,6 +39,22 @@ body {
     padding-top: 10px;
 }
 
+.hero-title {
+    font-family: "Aboreto", cursive;
+    padding-top: 15px;
+    font-size: xx-large;
+}
+
+.hero-text {
+    font-family: "Lato", sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.page-explainer {
+    height: 100px;
+}
+
 /* ========== 
 Header & Navigation Styles 
 ========== */
@@ -91,50 +107,6 @@ Header & Navigation Styles
 }
 
 /* ========== 
-Section Styles 
-========== */
-
-.hero-bg-outer {
-    background-color: #ced7db;
-}
-
-@media screen and (max-width: 991px) {
-    .hero-bg-outer {
-        text-align: center;
-    }
-    .hero-bg-outer.btn.btn-1 {
-        align-items: center;
-    }
-}
-
-.hero-title {
-    font-family: "Aboreto", cursive;
-    padding-top: 15px;
-}
-
-.hero-text {
-    font-family: "Lato", sans-serif;
-    font-size: medium;
-    font-weight: 500;
-}
-
-.section-plain {
-    background-color: #fff;
-}
-
-.section-colour {
-    background-color: #ced7db;
-}
-
-.inner-section-plain {
-    background-color: #ced7db;
-}
-
-.inner-section-colour {
-    background-color: #fff;
-}
-
-/* ========== 
 Button Styles 
 ========== */
 
@@ -170,6 +142,78 @@ Button Styles
     color: #ffecb3;
     background-color: #9da6a9;
     box-shadow: inset 0 -1px 0 rgb(255, 236, 179);
+}
+
+.hero-btn {
+    background-color: #212121;
+    border: 1px solid #ffecb3;
+    color: #ffecb3;
+}
+
+.btn.hero-btn:hover {
+    background-color:#ced7db;
+    border: 1px solid #212121;
+    color: #212121;
+}
+
+/* ========== 
+Section Styles 
+========== */
+
+.hero-bg-outer {
+    background-color: #ced7db;
+}
+
+@media screen and (max-width: 991px) {
+    .hero-bg-outer {
+        text-align: center;
+    }
+}
+
+.section-plain {
+    background-color: #fff;
+}
+
+.section-colour {
+    background-color: #ced7db;
+}
+
+.inner-section-plain {
+    background-color: #ced7db;
+}
+
+.inner-section-colour {
+    background-color: #fff;
+}
+
+/* ========== 
+Activity Section Styling
+========== */
+
+.activity-title {
+    font-family: "Aboreto", cursive;
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+}
+
+.activity-col {
+    min-height: 400px;
+}
+
+.activity-text {
+    min-height: 75px;
+    padding-top: 12px;
+    font-style: italic;
+}
+
+@media screen and (max-width: 991px) {
+    .activity-text {
+        min-height: 135px;
+        font-style: italic;
+        vertical-align: middle;
+    }
 }
 
 /* ========== 
@@ -258,34 +302,3 @@ Google Maps
 }
 
 
-/* ========== 
-Activity Section Styling
-========== */
-
-.activity-title {
-    font-family: "Aboreto", cursive;
-    font-size: x-large;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 5px;
-}
-
-.activity-col {
-    min-height: 400px;
-}
-
-.activity-text {
-    min-height: 75px;
-    padding-top: 12px;
-    font-style: italic;
-}
-
-@media screen and (max-width: 991px) {
-    .activity-text {
-        min-height: 135px;
-        font-style: italic;
-        vertical-align: middle;
-
-    }
-    
-}
