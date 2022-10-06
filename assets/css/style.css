@@ -169,7 +169,7 @@ Section Styles
 
 @media screen and (max-width: 991px) {
     .hero-bg-outer {
-        text-align: center;
+        text-align: left;
     }
 }
 
