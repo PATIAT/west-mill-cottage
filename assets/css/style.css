@@ -31,6 +31,7 @@ body {
     font-size: medium;
     font-weight: 500;
     padding-top: 10px;
+    font-style: italic;
 }
 
 .about-title-text {
@@ -242,6 +243,46 @@ About Section Styling
     .about-rule-break {
         display: none;
     }
+}
+
+/* ========== 
+Form Styles 
+========== */
+
+.form-label {
+    font-family: 'Aboreto', cursive;
+    font-size: medium;
+    font-weight: bold;
+}
+
+input::placeholder{
+    font-style: italic;
+    font-weight: 300;
+}
+
+textarea::placeholder {
+    font-style: italic;
+    font-weight: 300;
+}
+
+select#family-size.form-select {
+    font-style: italic;
+    font-weight: 300;
+}
+
+select#transport-type.form-select {
+    font-style: italic;
+    font-weight: 300;
+}
+
+input#arrival-date.form-control {
+    font-style: italic;
+    font-weight: 300;
+}
+
+input#departure-date.form-control {
+    font-style: italic;
+    font-weight: 300;
 }
 
 /* ========== 
