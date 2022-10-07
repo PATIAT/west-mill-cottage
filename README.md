@@ -1,6 +1,6 @@
-<h2 align="center"><img src="assets/readme-images/west_mill_cottage_logo.png"></h2  
+<h2 align="center"><img src="assets/readme-images/west_mill_cottage_logo.png"></h2>
 
-# Website for: West Mill Cottage  
+# West Mill Cottage  
 
 ## Code Institute Milestone Project 1 – Static Front End Project  
 
@@ -12,7 +12,11 @@
 
 ## Live Project  
 
+[You can view the live project here.](https://patiat.github.io/west-mill-cottage/)
+
 ## GitHub Repository  
+
+[You can find the project repository here.](https://github.com/PATIAT/West-Mill-Cottage)
 
 # Contents  
 
@@ -116,9 +120,13 @@
 
 - Most of the images are in landscape orientation and the use of the same aspect ratio for all images allows for a consistent user experience.  
 
+- Both ARIA roles and attributes as will as alt tags have been used to assist users with disabilities.
+
 ### Icons  
 
 - All icons were sourced from Font Awesome and have been used sparingly across each page to allow for a more focused approach to catch the users attention.  
+
+- Screen reader utilities such as sr-only have been utilised to assist users with disabilities.
 
 ## Structure  
 
@@ -140,4 +148,150 @@
 
   - Each page features a main ‘call to action’ which is achieved through a combination of images and buttons. The aim was to allow users to get to the information the page has to offer in as few steps as possible. 
 
+  - The website utilises continuous scrolling pages and collapsible menus to display the majority of its information.
+
+  - Visually impaired users and those with disabilities have been considered and a semantic layout has been utilised in combination with aria roles and attributes. 
+
+### Headings and sub headings 
+
+  - Each page of the website contains a heading to consistently show the user what to expect on each page. 
  
+  - All of the pages have subheadings to clearly demonstrate a separation of content that helps the user experience when navigating the content. 
+
+### Navigation Bar 
+
+  - Each of the pages maintains the same navigation section which allows all users to easily navigate between the pages without having to use the browser or return to the homepage.  
+
+  - The website utilises a collapsible navigation bar which shrinks as the screen size decreases until a hamburger icon is used to open and close the navigation menu.
+
+  - The navigation bar was sourced from bootstrap documentation and has been customised using CSS to create a unique background, font and colour combination.
+
+  - The active page is shown in a different colour to the rest of the navigation links and is underlined while active. Aria controls are in place to assist visually impaired users. This along with the hover changes were implemented with the use of CSS and bootstrap. 
+
+  - Each page, except location.html and contact.html has a back to top of page button at the bottom of each page, just above the footer. This was implemented to improve user experience and reduce swipes and scrolls of screens. 
+
+### Buttons 
+
+  - The buttons used across the pages are consistent throughout using the colour palletes of the primary and secondary colours as details above.  
+
+  - The text on each of the buttons is followed by a greater than sign to guide the user to follow the link. 
+
+  - The buttons use a hover class so when the user hovers over it, it changes colour. Both colour variants were assessed and determined to be legible. 
+
+  - Bootstrap buttons were used and customised with CSS.
+
+### Footer 
+
+  - The footer is consistent on each page and contains the logo, address, telephone, email and social media links. 
+
+  - The telephone and email links have been added and tel and mailto links. 
+
+  - All links to external social media sites open in a new tab. 
+
+  - The social media icons were source from font awesome.
+
+### Wireframes 
+
+- [You can view my wireframes in PDF form here.](https://github.com/PATIAT/west-mill-cottage/blob/main/assets/wireframes/west-mill-cottage-wireframes.pdf) 
+
+# Features 
+ 
+## Current Features 
+ 
+### Responsive on all device sizes 
+
+  - The development of this website was mobile first, therefore the website is fully responsive on all device screen sizes. 
+
+  - I have used the Bootstrap grid concept and adjusted the layout according to the size of the devices screen size. In some cases this was facilitated by the use of CSS media queries.
+
+### User interaction 
+
+  - Image carousels on the home page feature forward and backward buttons which the user is able to control. 
+
+  - There is an accordian on the property details page which the user is able to click to show and hide the information.
+
+  - A google maps iframe has been included on the location page to allow users to acquaint themselves with the geographical location of the holiday cottage. 
+
+  - The navbar turns into a drop down (hamburger on smaller devices). 
+
+## Future Features 
+
+### Bookings 
+
+  - A booking form which allows users to choose dates for a potential stay could be developed and included. 
+
+### Affiliate program with local businesses 
+
+  - Users who book with the site could benefit from discounts to local events and activities to promote other local businesses. 
+
+### E-commerce 
+
+  - The website could offer merchandise related to the holiday cottage or local area attractions for people to buy as souvenirs or gifts. 
+
+# Technologies Used 
+ 
+## Languages Used 
+ 
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) 
+ 
+- [CSS3](https://en.wikipedia.org/wiki/CSS) 
+
+## Frameworks Libraries and Programs 
+ 
+- [Bootstrap 5.2](https://getbootstrap.com/)  
+  - I used bootstrap throughout the site to make it responsive. The website uses Bootstrap's Containers, Grid System and Flexbox and Button classes. I sourced code from the Bootstrap documentation when building the Navbar, Carousel, Buttons and Contact Form,  
+   
+- [Google Fonts](https://fonts.google.com/) 
+  - Two fonts were imported from google fonts. Aboreto for the headings, and Lato for the general text. 
+   
+- [Font awesome](https://fontawesome.com/) 
+  - Icons were used from font awesome to add texture to some of the pages and styles.
+ 
+- [Gitpod](https://gitpod.io/) 
+  - Gitpod was used to create the folder structure and write the code and content. 
+
+- [Git](https://git-scm.com/) 
+  - Git was used for version control in the terminal. 
+ 
+- [Github](https://github.com/) 
+  - Github was used to create and store the project repository. 
+  
+- [jQuery](https://jquery.com/) 
+  - jQuery is associated with the bootstrao cdn and assists in the navigation responsiveness. 
+ 
+- [Balsamiq](https://balsamiq.com/) 
+  - Balsamiq was used to create Wireframes for the project. 
+
+- [Adobe Illustrator](https://adobe.com/) 
+  - Adobe Illustrator was used to amend the colours of the vector art used on the navbar and footer. 
+
+- [Vecteezy](https://www.vecteezy.com/free-vector/floral-pattern)
+  - Vecteezy was used to source the floral pattern used in the navigation and footer sections.
+
+- [Material Design Colour Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0) 
+  - The colour tool from Material Design was used to decide on the colour scheme for the website and the tools helped assess the legibility.
+
+- [Techsini](https://techsini.com/multi-mockup/) 
+  - Techsini was used to help check responsiveness and take screenshots of the page at different screen sizes.
+
+- [IloveIMG](https://www.iloveimg.com/resize-image#resize-options,pixels)
+  - I love IMG was used to re-size some of the images used.
+
+- [Pexels](https://www.pexels.com/) 
+  - Pexels was used to source images for the website which were not of the holiday cottage itself.
+
+- [TinyPNG](https://tinypng.com/) 
+  - TinyPNG was used to compress images for a faster loading time. 
+ 
+- [WebFormatter](https://webformatter.com/html) 
+  - WebFormatter was used to help beautify the code.
+
+- [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) 
+  - Google Chrome's Dev Tools were utilised during the build of the project to test functionality, responsiveness and for debugging purposes.
+
+- [Canva](https://www.canva.com/)
+  - Canva was used to create the logo and the favicon used on the website and README documentation. I decided not to use the logo on the navbar as it was distracting and I felt the typography alone looks more visually pleasing.
+
+# Testing 
+
+- For all testing documentation, please [click here](https://github.com/PATIAT/west-mill-cottage/blob/main/TESTING.md) for more information.
