@@ -1,4 +1,4 @@
-<h2 align="center"><img src="assets/readme-images/west_mill_cottage_logo.png"></h2>
+<h2 align="left"><img src="assets/readme-images/west_mill_cottage_logo.png"></h2>
 
 # West Mill Cottage  
 
@@ -97,10 +97,10 @@
 ### Colour Scheme  
 
 #### Primary Colours
-<h2 align="center"><img src="assets/readme-images/primary_colours.png"></h2>  
+<h2 align="left"><img src="assets/readme-images/primary_colours.png"></h2>  
 
 #### Secondary Colours
-<h2 align="center"><img src="assets/readme-images/secondary_colours.png"></h2>  
+<h2 align="left"><img src="assets/readme-images/secondary_colours.png"></h2>  
 
  - A simple colour scheme has been used with three primary colours and three secondary colours. The colours are all relatively light with dark type being used in contrast to give a refined and clean appearance.  
 
@@ -158,6 +158,8 @@
  
   - All of the pages have subheadings to clearly demonstrate a separation of content that helps the user experience when navigating the content. 
 
+<h2 align="left"><img src="assets/readme-images/page_heading.png"></h2> 
+
 ### Navigation Bar 
 
   - Each of the pages maintains the same navigation section which allows all users to easily navigate between the pages without having to use the browser or return to the homepage.  
@@ -170,6 +172,10 @@
 
   - Each page, except location.html and contact.html has a back to top of page button at the bottom of each page, just above the footer. This was implemented to improve user experience and reduce swipes and scrolls of screens. 
 
+<h2 align="left"><img src="assets/readme-images/navigation_desktop.png"></h2> 
+<h2 align="left"><img src="assets/readme-images/navigation_mobile.png"></h2> 
+<h2 align="left"><img src="assets/readme-images/button_back_to_top.png"></h2> 
+
 ### Buttons 
 
   - The buttons used across the pages are consistent throughout using the colour palletes of the primary and secondary colours as details above.  
@@ -180,6 +186,9 @@
 
   - Bootstrap buttons were used and customised with CSS.
 
+<h2 align="left"><img src="assets/readme-images/button_dark.png"></h2> 
+<h2 align="left"><img src="assets/readme-images/button_light.png"></h2> 
+
 ### Footer 
 
   - The footer is consistent on each page and contains the logo, address, telephone, email and social media links. 
@@ -189,6 +198,9 @@
   - All links to external social media sites open in a new tab. 
 
   - The social media icons were source from font awesome.
+
+<h2 align="left"><img src="assets/readme-images/footer_desktop.png"></h2> 
+<h2 align="left"><img src="assets/readme-images/footer_mobile.png"></h2> 
 
 ### Wireframes 
 
@@ -279,6 +291,17 @@
 
 - [Pexels](https://www.pexels.com/) 
   - Pexels was used to source images for the website which were not of the holiday cottage itself.
+    - [Jan Krukov](https://www.pexels.com/@yankrukov/)
+    - [Arun V Nair](https://www.pexels.com/@arun-v-nair-260501913/)
+    - [Shazard R.](https://www.pexels.com/@shazardr/)
+    - [Spencer Selover](https://www.pexels.com/@spencer-selover-142259/)
+    - [Sebastian Garcia Agudelo](https://www.pexels.com/@segarciashots/)
+    - [Loraine Lear](https://www.pexels.com/@loraine-lear-82252972/)
+    - [Ray Bicliff](https://www.pexels.com/@raybilcliff/)
+    - [Pixabay](https://www.pexels.com/@pixabay/)
+    - [iROCKERitaly](https://www.pexels.com/@irockeritaly-59597920/)
+    - [Kampus Production](https://www.pexels.com/@kampus/)
+    - [Matt Barnard](https://www.pexels.com/@matt-barnard-21952098/)
 
 - [TinyPNG](https://tinypng.com/) 
   - TinyPNG was used to compress images for a faster loading time. 
@@ -295,3 +318,83 @@
 # Testing 
 
 - For all testing documentation, please [click here](https://github.com/PATIAT/west-mill-cottage/blob/main/TESTING.md) for more information.
+
+# Deployment
+
+## GitHub Pages
+
+The project was deployed to GitHub Pages using these steps:
+
+1. Log in to GitHub and go to the [GitHub Repository](https://github.com/PATIAT/west-mill-cottage)
+2. Locate the Navbar at the top of the Repository (not top of page). Click the Settings tab.
+3. Locate the Navbar on the left hand side of the page. Click the "Pages" section (under 'Code and automation').
+4. Under "Source", click the dropdown called "None" and select "main". Click save.
+5. The page will automatically refresh.
+6. A notification will appear at the top of the page with the [link](https://patiat.github.io/west-mill-cottage/index.html) to the deployed site. You can return to this GitHub Pages section to access the link.
+
+## Forking the GitHub Repository
+
+Forks are used to propose changes to someone else's project or to use someone else's project as a starting point for your own idea. By forking the GitHub Repository you make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository.
+
+To Fork a Github Repository:
+
+1. Log in to GitHub and go to the [GitHub Repository](https://github.com/PATIAT/west-mill-cottage)
+2. Locate the Fork button in the top-right corner of the page, click Fork.
+3. You should now have a copy of the original repository in your GitHub account.
+
+## Making a Local Clone
+
+You will now have a fork of the repository, but you don't have the files in that repository locally on your computer.
+
+To make a local clone:
+
+1. Log in to GitHub and go to the [GitHub Repository](https://github.com/PATIAT/west-mill-cottage)
+2. Above the list of files, click  Code.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click the 'Copy' icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the 'Copy' icon. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the 'Copy' icon.
+4. Open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type git clone, and then paste the URL you copied earlier. It will look like this, with your GitHub AE username instead of YOUR-USERNAME:
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `milestone-project-one`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/fork-a-repo) for the GitHub quick start guide with images and more detailed explanations of the above process.
+
+# Credits
+
+## Code
+
+-   [Bootstrap 5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/): The Bootstrap library was utilised throughout the development of the project to make site responsive using the Bootstrap Grid System and Flexbox. Bootstrap documentation was referred to when developing the Navigation, Carousel, Accordian, Buttons and Contact Form. 
+
+-   [Code Institute](https://codeinstitute.net/): I used the Code Institute's learning management system to remind myself of certain lessons and to use specific code from some of the projects done during the course. For example, the footer from the Resume project and the use of the iFrame from the Coders Coffee House Lessons.
+
+## Content
+
+-   The content was provided by the Cottage owners and has been embellished upon to make it more suitable for online consumption.
+    - [Luxury Cottages](https://www.luxurycottages.co.uk/) - for general inspiration regarding holiday cottages.
+    - [Unique Home Stay](https://www.uniquehomestays.com/) - for general inspiration regarding holiday cottages.
+
+- To develop this README file I referred to the [Code Institute's Sample README](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md). This can also be said for the TESTING file which followed the same format.
+
+## Acknowledgements
+
+- Thank you to my Code Institute Tutor Chris Quinn for helpful feedback, pointers and tips that I would never have though of on my own.
+
+- Thank you to the tutors and staff at Code Institute and City of Bristol College for their support.
+
+This website for West Mill Cottage, although a real life holiday cottage is for educational purposes only and for the development of a portfolio.
+
+Paul Trotter, 2022.
+
