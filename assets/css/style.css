@@ -42,7 +42,7 @@ body {
 }
 
 .accordian-title {
-    font-family: 'Aboreto', cursive;
+    font-family: "Aboreto", cursive;
     font-size: large;
     padding-top: 10px;
 }
@@ -132,7 +132,7 @@ Button Styles
 }
 
 .btn.btn-2:hover {
-    background-color:#ced7db;
+    background-color: #ced7db;
     border: 1px solid #212121;
     color: #212121;
 }
@@ -155,7 +155,7 @@ Button Styles
 }
 
 .btn.hero-btn:hover {
-    background-color:#ced7db;
+    background-color: #ced7db;
     border: 1px solid #212121;
     color: #212121;
 }
@@ -234,7 +234,7 @@ About Section Styling
 }
 
 .about-heading {
-    font-family: 'Aboreto', cursive;
+    font-family: "Aboreto", cursive;
     font-size: x-large;
     padding-top: 15px;
 }
@@ -250,12 +250,12 @@ Form Styles
 ========== */
 
 .form-label {
-    font-family: 'Aboreto', cursive;
+    font-family: "Aboreto", cursive;
     font-size: medium;
     font-weight: bold;
 }
 
-input::placeholder{
+input::placeholder {
     font-style: italic;
     font-weight: 300;
 }
