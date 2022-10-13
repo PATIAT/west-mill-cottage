@@ -43,6 +43,14 @@ The West Mill Cottage website stylesheet was subjected to the W3C CSS Validator 
 
 # Chrome Dev Tools - Lighthouse
 
+The chrome developer tool 'lighthouse' was used to assess the website for West Mill Cottage against the following parameters:
+- Performance
+- Accessibility
+- Best Practices
+- SEO (Search Engine Optimisation)
+
+Each page was assessed in terms of desktop performance and mobile performance. Each page performed well and the results are evidenced below:
+
 ### Lighthouse report - Home Page
 #### Desktop
 <h2 align="left"><img src="assets/readme-images/lighthouse-report-home-page-desktop.png"></h2> 
@@ -85,6 +93,12 @@ The West Mill Cottage website stylesheet was subjected to the W3C CSS Validator 
 #### Mobile
 <h2 align="left"><img src="assets/readme-images/lighthouse-report-contact-page-mobile.png"></h2> 
 
+The lighthouse reports made a number of recommendations which included:
+- Serving images in next-gen formats such as WebP and AVIF to provide better compression. I decided not pursue this as these formats are not supported on all browsers at this time. Additionally, the user experience is not hugely affected by this.
+- Some pages heading elements were not in a sequentially descending order. I decided to amend the code to ensure compliance with this recommendation and to ensure that a fully semantic structure was adpoted to make it easier for assistive navigation technologies.
+
+
+
 
 
 - Made site live on GitHub pages early on in dev process to test on real hardware iPhone 13 PRO and iPhone 11, Mac Book Air 2015 and HP Desktop 27in. (Credit to CI Mentor for this advice).
@@ -97,5 +111,17 @@ The West Mill Cottage website stylesheet was subjected to the W3C CSS Validator 
 - Based on early google lighthouse report the following was identified:
   + Re-size images and maintain aspect ratio - this was done manually using Adobe Illustrator to ensure speedier load times
   + Next gen image formats were suggested by google lighthouse but it was decided not pursue this as these formats are not supported on all browsers at this time.
+
+  # Bugs
+
+  ## Resolved
+  - Heading elements were not in a sequentially descending order. Some blocks of code had `h5` elements as the first heading. Each page was assessed for `h5` elements and amended to `h1`. Some of the CSS required amendments to maintain the style of the website e.g., size and fonts.
+  - The Google Maps iFrame did not have a title. This would have impacted on the user experience of impaired users. Therefore, the code was amended and a title attribute added to the Google iFrame element.
+
+  ## Unresolved
+  - Chrome Lighthouse suggestions including:
+    - Serve images in next-gen formats (Image formats like WebP and AVIF often provide better compression than PNG or JPEG, which means faster downloads and less data consumption).
+    - Eliminate render-blocking resources (Resources are blocking the first paint of your page. Consider delivering critical JS/CSS inline and deferring all non-critical JS/styles).
+    - Serve static assets with an efficient cache policy (A long cache lifetime can speed up repeat visits to your page).
 
 
