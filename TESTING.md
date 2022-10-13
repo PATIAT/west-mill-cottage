@@ -98,30 +98,89 @@ The lighthouse reports made a number of recommendations which included:
 - Some pages heading elements were not in a sequentially descending order. I decided to amend the code to ensure compliance with this recommendation and to ensure that a fully semantic structure was adpoted to make it easier for assistive navigation technologies.
 
 
+# A11y Color Contrast Accessibility Checker
 
+All website pages were tested using the A11y Color Contrast Accessibility Checker, the results are evidenced below:
 
+### Home Page
+<h2 align="left"><img src="assets/readme-images/a11y-home-page.png"></h2> 
 
-- Made site live on GitHub pages early on in dev process to test on real hardware iPhone 13 PRO and iPhone 11, Mac Book Air 2015 and HP Desktop 27in. (Credit to CI Mentor for this advice).
+### Property Details Page
+<h2 align="left"><img src="assets/readme-images/a11y-property-details-page.png"></h2> 
 
-- Word separation in files (images) were highlighted as not being consistent so files were renamed with underscores for a more consistent approach (Credit to CI Mentor for this advice).
+### Location Page
+<h2 align="left"><img src="assets/readme-images/a11y-location-page.png"></h2> 
 
-- Contact page: Although required fields are identified via an * there is no narrative to explicitly state that fields marked with * must be completed. Therefore, a narrative was put in place above the contact form (Credit to CI Mentor for this advice).
+### Activities Page
+<h2 align="left"><img src="assets/readme-images/a11y-activities-page.png"></h2> 
 
+### About Page
+<h2 align="left"><img src="assets/readme-images/a11y-about-page.png"></h2> 
 
-- Based on early google lighthouse report the following was identified:
-  + Re-size images and maintain aspect ratio - this was done manually using Adobe Illustrator to ensure speedier load times
-  + Next gen image formats were suggested by google lighthouse but it was decided not pursue this as these formats are not supported on all browsers at this time.
+### Contact Page
+<h2 align="left"><img src="assets/readme-images/a11y-contact-page.png"></h2> 
 
-  # Bugs
+# Browser Compatibility
 
-  ## Resolved
-  - Heading elements were not in a sequentially descending order. Some blocks of code had `h5` elements as the first heading. Each page was assessed for `h5` elements and amended to `h1`. Some of the CSS required amendments to maintain the style of the website e.g., size and fonts.
-  - The Google Maps iFrame did not have a title. This would have impacted on the user experience of impaired users. Therefore, the code was amended and a title attribute added to the Google iFrame element.
+On desktop, the site was tested in the following browsers:
+- Chrome
+- Edge
+- Firefox
+- Safari
 
-  ## Unresolved
-  - Chrome Lighthouse suggestions including:
+No issues were identified with appearance, responsiveness or functionality during usage of the website on these browsers.
+
+On mobile and tablet, the site was tested in the following browsers:
+- Chrome
+- Safari
+- Firefox
+
+No issues were identified with appearance, responsiveness or functionality during usage of the website on these browsers.
+
+# Responsiveness
+
+Responsiveness assessments were undertaken using the Chrome Developer Tools across a number of screen sizes including: 
+- iPhone SE
+- iPhone XR
+- iPhone 12 Pro
+- Pixel 5
+- Samsung Galaxy S8+
+- Samsung Galaxy S20 Ultra
+- iPad Mini
+- iPad Air
+- Surface Pro 7
+- Surface Duo
+- Galaxy Fold
+- Samsung Galaxy A51/71
+- Nest Hub
+- Nest Hub Max
+
+No issues were identified with appearance, responsiveness or functionality during usage of the website on these virtual screen sizes.
+
+The website was also testing on actual hardware including:
+- iPhone 13 Pro
+- iPhone 11
+- iPhone 6
+- MacBook Air 2015
+- HP All in One Desktop 27
+- iPad 2021
+
+# Mentor
+
+## Assistance
+
+- I made site live on GitHub pages early on in the development process to test on real hardware iPhone 13 PRO and iPhone 11, Mac Book Air 2015 and HP Desktop 27in.
+- Word separation of image file names were highlighted as not being consistent so files were renamed with underscores for a more consistent approach.
+- Contact page: Although required fields are identified via an * there is no narrative to explicitly state that fields marked with * must be completed. Therefore, a narrative was put in place above the contact form.
+
+# Bugs
+
+## Resolved
+- Heading elements were not in a sequentially descending order. Some blocks of code had `h5` elements as the first heading. Each page was assessed for `h5` elements and amended to `h1`. Some of the CSS required amendments to maintain the style of the website e.g., size and fonts.
+- The Google Maps iFrame did not have a title. This would have impacted on the user experience of impaired users. Therefore, the code was amended and a title attribute added to the Google iFrame element.
+
+## Unresolved
+- Chrome Lighthouse suggestions including:
     - Serve images in next-gen formats (Image formats like WebP and AVIF often provide better compression than PNG or JPEG, which means faster downloads and less data consumption).
     - Eliminate render-blocking resources (Resources are blocking the first paint of your page. Consider delivering critical JS/CSS inline and deferring all non-critical JS/styles).
     - Serve static assets with an efficient cache policy (A long cache lifetime can speed up repeat visits to your page).
-
-
