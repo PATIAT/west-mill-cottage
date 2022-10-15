@@ -240,6 +240,10 @@
 
   - The website could offer merchandise related to the holiday cottage or local area attractions for people to buy as souvenirs or gifts. 
 
+### Reviews
+
+  - Genuine reviews could be displayed on the website or via a third party widget such as Trust Pilot.
+
 # Technologies Used 
  
 ## Languages Used 

@@ -97,7 +97,6 @@ The lighthouse reports made a number of recommendations which included:
 - Serving images in next-gen formats such as WebP and AVIF to provide better compression. I decided not pursue this as these formats are not supported on all browsers at this time. Additionally, the user experience is not hugely affected by this.
 - Some pages heading elements were not in a sequentially descending order. I decided to amend the code to ensure compliance with this recommendation and to ensure that a fully semantic structure was adpoted to make it easier for assistive navigation technologies.
 
-
 # A11y Color Contrast Accessibility Checker
 
 All website pages were tested using the A11y Color Contrast Accessibility Checker, the results are evidenced below:
@@ -164,6 +163,58 @@ The website was also testing on actual hardware including:
 - MacBook Air 2015
 - HP All in One Desktop 27
 - iPad 2021
+
+# Testing User Stories  
+
+## Prospective Tenants  
+
+* As a prospective tenant, I would like to have an overview of the holiday cottage to determine if it is suitable for my requirements.  
+
+  - The home page has a carousel which demonstrates the standard of the rooms in the cottage. Additionally, the property overview page has detailed information on the holiday cottage and amenities.
+
+* As a prospective tenant, I would like to know the details of the holiday cottage including its attributes such as; number of bedrooms, bathrooms etc...
+
+  - The property details page contains detailed information on each of the rooms and other attributes of the property.
+
+* As a prospective tenant, I would like to know what activities and attractions are available in the local area.
+
+  - The activities page contains detailed information and links to external websites which contain further information on activities that are available to do locally.   
+
+* As a prospective tenant, I would like to be able to contact the owners if I have any questions or special requests.  
+
+  - There is a form on the contact page where users can contact the owners with any special requests they may have.
+
+## Returning Tenants  
+
+* As a returning tenant, I would like to know if the holiday cottage has any new attributes, such as additional facilities etc...  
+
+  - The information on the property details page can be updated as necessary when updates or new features are made available.
+
+* As a returning tenant, I would like see genuine reviews from other people and families that have stayed at the holiday cottage.
+
+  - Although this is thought to be a useful feature of a website of this type, the development journey has determined that this type of content would be best suited to a post-launch update and this user story has therefore been added to the list of potential future features.
+
+* As a returning tenant, I would like to know if there are any upcoming events in the local area that I could attend on my visit.  
+
+  - The activities page can facilitate this requirement because the page contains links to local organisation websites that promote local events.
+
+* As a returning tenant, I would like to be able to let the owners know I am returning tenant so I can receive potential discounted rates.  
+
+  - The form on the contact page can be used to advise the owners if tenants are returning or are first time visitors.
+
+## Business Owners  
+
+* As the business owner, I would like my website to be user friendly across all devices and accessible to visually impaired users.
+
+  - The website is fully responsive on all device screen sizes and maintains the desired styles throughout. Additionally it is written in semantic code for accessibility. The website also contains meta descriptions and keywords to improve search engine optimisation.
+
+* As the business owner, I would like the website to promote the quality of the cottage and the activities and attractions in the local area.  
+  
+  - The website connects with the style of the holiday cottage. The colour pallete, typography and styling all fit with the style and decor or the holiday cottage itself.
+
+* As the business owner, I would like the website to emphasise the openness of us as owners and promote the asking of questions from users via the contact form and social media platforms.
+
+  - This is acheived by the showcasing of the property through the images and content. Additionally, the presence of a form allowing users to ask anything also displays the openness of the owners.
 
 # Mentor
 
