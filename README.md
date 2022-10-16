@@ -4,6 +4,8 @@
 
 ## Code Institute Milestone Project 1 – Static Front End Project  
 
+<h2 align="left"><img src="assets/readme-images/west-mill-cottage-mockup.png"></h2>
+
 *  West Mill Cottage is a blissfully tranquil riverside cottage set in rural countryside where England meets Scotland. The objective of the website is to appeal to prospective and returning tenants. The website is designed to be fully responsive so that the users experience is consistent across any device.   
 
 * This website has been developed for the Milestone Project 1 submission as part of the Diploma in Web Application Development course facilitated by Code Institute and City of Bristol College.  
@@ -53,6 +55,32 @@
   + [Page Heading & Sub Navigations](#page-heading-and-sub-navigations)  
 
   + [Footer](#footer)  
+
+- [Wireframes](#wireframes)
+
+- [Features](#features)
+
+  + [Current Features](#current-features)
+
+  + [Future Features](#future-features)
+
+- [Technologies Used](#technologies-used)
+
+  + [Languages Used](#languages-used)
+
+  + [Frameworks Libraries and Programs](#frameworks-libraries-and-programs)
+
+- [Testing](#testing)
+
+- [Deployment](#deployment)
+
+- [Credits](#credits)
+
+  + [Code](#code)
+
+  + [Content](#content)
+
+  + [Acknowledgements](#acknowledgements)
 
 # User Experience  
 

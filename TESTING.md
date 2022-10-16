@@ -11,6 +11,21 @@ The website for West Mill Cottage has been tested using the following methods:
         - [Contact Page](#contact-page)
     - [W3C CSS Validator](#w3c-css-validator)
 - [Chrome Dev Tools - Lighthouse](#chrome-dev-tools---lighthouse)
+- [A11y Color Contrast Accessibility Checker](#a11y-color-contrast-accessibility-checker)
+- [Browser Compatibility](#browser-compatibility)
+- [Responsiveness](#responsiveness)
+- [Testing User Stories](#testing-user-stories)
+    - [Prospective Tenants](#prospective-tenants)
+    - [Returning Tenants](#returning-tenants)
+    - [Business Owners](#business-owners)
+- [Peer Review](#peer-review)
+    - [Slack](#slack)
+    - [Google Forms](#google-forms)
+- [Mentor](#mentor)
+    - [Assistance](#assistance)
+- [Bugs](#bugs)
+    - [Resolved](#resolved)
+    - [Unresolved](#unresolved)
 
 # Code Validation
 
@@ -216,6 +231,22 @@ The website was also testing on actual hardware including:
 
   - This is acheived by the showcasing of the property through the images and content. Additionally, the presence of a form allowing users to ask anything also displays the openness of the owners.
 
+# Peer Review
+
+## Slack
+
+- In the last stages of development and testing, I submitted my project for review to fellow students at Code Institute. This was facilitated via the peer code review on Slack. Feedback included:
+  - *I’ve had a cursory look at the website, accessed all of the navbar, and links to external sites/socials. For what its worth (I’m just a student on here) it is a great website! Aesthetically, super clean and consistent. All the functionality is there and the user experience is made easy. I tested it on my Mac (large screen) and it worked fine.*
+  - 2
+  - 3
+
+## Google Forms
+
+- A form was created using Google Forms and was distributed to the business owners, family and close friends for their feedback. Feedback included:
+  - *Looks great. Easy to use.*
+  - *Stunning looking website. Well designed, very easy to navigate and it looks classy.*
+  - *Brilliant website, very informative and easy to use.*
+  
 # Mentor
 
 ## Assistance
