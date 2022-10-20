@@ -10,22 +10,31 @@ The website for West Mill Cottage has been tested using the following methods:
         - [About Page](#about-page)
         - [Contact Page](#contact-page)
     - [W3C CSS Validator](#w3c-css-validator)
+
 - [Chrome Dev Tools - Lighthouse](#chrome-dev-tools---lighthouse)
+
 - [A11y Color Contrast Accessibility Checker](#a11y-color-contrast-accessibility-checker)
+
 - [Browser Compatibility](#browser-compatibility)
+
 - [Responsiveness](#responsiveness)
+
 - [Testing User Stories](#testing-user-stories)
     - [Prospective Tenants](#prospective-tenants)
     - [Returning Tenants](#returning-tenants)
     - [Business Owners](#business-owners)
+
 - [Peer Review](#peer-review)
     - [Slack](#slack)
     - [Google Forms](#google-forms)
+
 - [Mentor](#mentor)
     - [Assistance](#assistance)
+
 - [Bugs](#bugs)
     - [Resolved](#resolved)
     - [Unresolved](#unresolved)
+    - [Opportunities for future performance enhancement](#opportunities-for-future-performance-enhancement)
 
 # Code Validation
 
@@ -173,11 +182,17 @@ No issues were identified with appearance, responsiveness or functionality durin
 
 The website was also testing on actual hardware including:
 - iPhone 13 Pro
+<h2 align="left"><img src="assets/readme-images/responsiveness-safari-iphone13pro.png"></h2> 
 - iPhone 11
+<h2 align="left"><img src="assets/readme-images/responsiveness-safari-iphone11.png"></h2> 
 - iPhone 6
+<h2 align="left"><img src="assets/readme-images/responsiveness-safari-iphone6.png"></h2> 
 - MacBook Air 2015
+<h2 align="left"><img src="assets/readme-images/responsiveness-safari-macbookair2015.jpg"></h2> 
 - HP All in One Desktop 27
+<h2 align="left"><img src="assets/readme-images/responsiveness-chrome-hp27inpc.png"></h2> 
 - iPad 2021
+<h2 align="left"><img src="assets/readme-images/responsiveness-safari-ipad2021.png"></h2> 
 
 # Testing User Stories  
 
@@ -207,7 +222,7 @@ The website was also testing on actual hardware including:
 
 * As a returning tenant, I would like see genuine reviews from other people and families that have stayed at the holiday cottage.
 
-  - Although this is thought to be a useful feature of a website of this type, the development journey has determined that this type of content would be best suited to a post-launch update and this user story has therefore been added to the list of potential future features.
+  - Although this is thought to be a useful feature of a website of this type, it is beyond the scope of this project and this user story has therefore been added to the list of potential future features.
 
 * As a returning tenant, I would like to know if there are any upcoming events in the local area that I could attend on my visit.  
 
@@ -237,8 +252,6 @@ The website was also testing on actual hardware including:
 
 - In the last stages of development and testing, I submitted my project for review to fellow students at Code Institute. This was facilitated via the peer code review on Slack. Feedback included:
   - *I’ve had a cursory look at the website, accessed all of the navbar, and links to external sites/socials. For what its worth (I’m just a student on here) it is a great website! Aesthetically, super clean and consistent. All the functionality is there and the user experience is made easy. I tested it on my Mac (large screen) and it worked fine.*
-  - 2
-  - 3
 
 ## Google Forms
 
@@ -246,6 +259,9 @@ The website was also testing on actual hardware including:
   - *Looks great. Easy to use.*
   - *Stunning looking website. Well designed, very easy to navigate and it looks classy.*
   - *Brilliant website, very informative and easy to use.*
+  - *It's excellent.*
+
+- [You can view the peer review form responses in PDF format here.](https://github.com/PATIAT/west-mill-cottage/blob/main/assets/form-responses/west-mill-cottage-peer-review-form-responses.pdf) 
   
 # Mentor
 
@@ -254,6 +270,7 @@ The website was also testing on actual hardware including:
 - I made site live on GitHub pages early on in the development process to test on real hardware iPhone 13 PRO and iPhone 11, Mac Book Air 2015 and HP Desktop 27in.
 - Word separation of image file names were highlighted as not being consistent so files were renamed with underscores for a more consistent approach.
 - Contact page: Although required fields are identified via an * there is no narrative to explicitly state that fields marked with * must be completed. Therefore, a narrative was put in place above the contact form.
+- Following discussions with my Tutor regarding the site layout on large screens and potentially reconfiguring the code to include a margin on the left and right to improve flow and appearance on very large screens, I have decided against making these changes at this late stage of the project. This was also discussed with my CI mentor who advised that this can lead to display scaling issues on 2k or 4k displays where the content can appear very small and not as intended. This concept will be considered when planning any future projects as it is a commonly adopted practise which can be demonstrated by visiting websites such as [apple](https://www.apple.com/uk/).
 
 # Bugs
 
@@ -261,7 +278,10 @@ The website was also testing on actual hardware including:
 - Heading elements were not in a sequentially descending order. Some blocks of code had `h5` elements as the first heading. Each page was assessed for `h5` elements and amended to `h1`. Some of the CSS required amendments to maintain the style of the website e.g., size and fonts.
 - The Google Maps iFrame did not have a title. This would have impacted on the user experience of impaired users. Therefore, the code was amended and a title attribute added to the Google iFrame element.
 
-## Unresolved
+## Unesolved
+- None.
+
+## Opportunities for future performance enhancement
 - Chrome Lighthouse suggestions including:
     - Serve images in next-gen formats (Image formats like WebP and AVIF often provide better compression than PNG or JPEG, which means faster downloads and less data consumption).
     - Eliminate render-blocking resources (Resources are blocking the first paint of your page. Consider delivering critical JS/CSS inline and deferring all non-critical JS/styles).
