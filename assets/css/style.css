@@ -39,6 +39,7 @@ body {
     font-size: medium;
     font-weight: 400;
     padding-top: 15px;
+    text-align: start;
 }
 
 .accordian-title {
@@ -237,6 +238,13 @@ About Section Styling
     font-family: "Aboreto", cursive;
     font-size: x-large;
     padding-top: 15px;
+}
+
+.about-heading-2 {
+    font-family: "Aboreto", cursive;
+    font-size: x-large;
+    padding-top: 15px;
+    text-align: start;
 }
 
 @media screen and (min-width: 991px) {
