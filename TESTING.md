@@ -278,6 +278,7 @@ The website was also testing on actual hardware including:
 ## Resolved
 - Heading elements were not in a sequentially descending order. Some blocks of code had `h5` elements as the first heading. Each page was assessed for `h5` elements and amended to `h1`. Some of the CSS required amendments to maintain the style of the website e.g., size and fonts.
 - The Google Maps iFrame did not have a title. This would have impacted on the user experience of impaired users. Therefore, the code was amended and a title attribute added to the Google iFrame element.
+- Whilst manually testing the website (contact page), I noticed that when completing the form and submitting it, although the form is set up sucessfully and I was receiving the success message from code institute, the input name and value were not pulling through correctly. Upon inspection of the code, I discovered that I had omitted the name attribute from the label and input elements. This was resolved at the time of discovery.
 
 ## Unesolved
 - None.
