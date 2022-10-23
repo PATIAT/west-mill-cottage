@@ -353,26 +353,20 @@
 
 # Deployment
 
-## GitHub Pages
-
-The project was deployed to GitHub Pages using these steps:
-
-1. Log in to GitHub and go to the [GitHub Repository](https://github.com/PATIAT/west-mill-cottage)
-2. Locate the Navbar at the top of the Repository (not top of page). Click the Settings tab.
-3. Locate the Navbar on the left hand side of the page. Click the "Pages" section (under 'Code and automation').
-4. Under "Source", click the dropdown called "None" and select "main". Click save.
-5. The page will automatically refresh.
-6. A notification will appear at the top of the page with the [link](https://patiat.github.io/west-mill-cottage/index.html) to the deployed site. You can return to this GitHub Pages section to access the link.
-
 ## Forking the GitHub Repository
 
 Forks are used to propose changes to someone else's project or to use someone else's project as a starting point for your own idea. By forking the GitHub Repository you make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository.
 
 To Fork a Github Repository:
 
-1. Log in to GitHub and go to the [GitHub Repository](https://github.com/PATIAT/west-mill-cottage)
-2. Locate the Fork button in the top-right corner of the page, click Fork.
-3. You should now have a copy of the original repository in your GitHub account.
+1. Log in to GitHub and navigate to the [GitHub Repository](https://github.com/PATIAT/west-mill-cottage)
+2. In the top-right corner of the page, click Fork.
+3. Select an owner for the forked repository.
+4. By default, forks are named the same as their parent repositories. You can change the name of the fork to distinguish it further.
+5. Optionally, add a description of your fork.
+6. Choose whether to copy only the default branch or all branches to the new fork. For many forking scenarios, such as contributing to open-source projects, you only need to copy the default branch. By default, only the default branch is copied.
+7. Click Create fork.
+8. You should now have a copy of the original repository in your GitHub account.
 
 ## Making a Local Clone
 
@@ -382,10 +376,13 @@ To make a local clone:
 
 1. Log in to GitHub and go to the [GitHub Repository](https://github.com/PATIAT/west-mill-cottage)
 2. Above the list of files, click  Code.
-3. To clone the repository using HTTPS, under "Clone with HTTPS", click the 'Copy' icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the 'Copy' icon. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the 'Copy' icon.
+3. Copy the URL for the repository.
+  - To clone the repository using HTTPS, under "Clone with HTTPS", click the 'Copy' icon. 
+  - To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the 'Copy' icon. 
+  - To clone a repository using GitHub CLI, click Use GitHub CLI, then click the 'Copy' icon.
 4. Open Git Bash.
 5. Change the current working directory to the location where you want the cloned directory.
-6. Type git clone, and then paste the URL you copied earlier. It will look like this, with your GitHub AE username instead of YOUR-USERNAME:
+6. Type git clone, and then paste the URL you copied earlier. It will look like this, with your GitHub username instead of YOUR-USERNAME:
 
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
@@ -402,7 +399,18 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Unpacking objects: 100% (10/10), done.
 ```
 
-Click [Here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/fork-a-repo) for the GitHub quick start guide with images and more detailed explanations of the above process.
+Click [here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/fork-a-repo) for the GitHub quick start guide with images and more detailed explanations of the above process.
+
+## GitHub Pages
+
+The project was deployed to GitHub Pages using these steps:
+
+1. Log in to GitHub and go to the [GitHub Repository](https://github.com/PATIAT/west-mill-cottage)
+2. Locate the Navbar at the top of the Repository (not top of page). Click the Settings tab.
+3. Locate the Navbar on the left hand side of the page. Click the "Pages" section (under 'Code and automation').
+4. Under "Source", click the dropdown called "None" and select "main". Click save.
+5. The page will automatically refresh.
+6. A notification will appear at the top of the page with the [link](https://patiat.github.io/west-mill-cottage/index.html) to the deployed site. You can return to this GitHub Pages section to access the link.
 
 # Credits
 
